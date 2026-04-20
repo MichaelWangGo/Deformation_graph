@@ -1,6 +1,6 @@
 # Deformation Graph
 
-Python implementation of **Embedded Deformation (ED)** for 3D shape manipulation.
+An unofficial implementation of **Embedded Deformation (ED)** for 3D shape manipulation.
 
 This repository provides a lightweight ED pipeline including:
 

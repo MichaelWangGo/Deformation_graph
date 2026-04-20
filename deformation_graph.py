@@ -1074,10 +1074,10 @@ def run_deformation(
 
 
 if __name__ == "__main__":
-    mesh_path = "/workspace/Any6D/results/demo_mustard/refine_init_mesh_demo.obj"  # Replace with your input file path
+    mesh_path = "/workspace/Joint_optimization/results/mustard0/final_mesh_demo.obj"  # Replace with your input file path
     # output_path = "output.obj"  # Replace with your desired output file path
     mesh = load_mesh_or_pointcloud(mesh_path)
     result = example_point_cloud(mesh)
 
-    output_path = "/workspace/InstantMesh/outputs/instant-mesh-large/demo_deformed.obj"
+    output_path = "/workspace/Deformation_graph/demo_deformed.obj"
     save_mesh_or_pointcloud(output_path, result["deformed_vertices"], mesh.faces, mesh.colors)
